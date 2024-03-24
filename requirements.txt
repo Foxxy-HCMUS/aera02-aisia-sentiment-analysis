@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu116
+spacy
+googletrans==3.1.0a0 
+ipywidgets
+python -m spacy download en_core_web_sm
+bitsandbytes==0.41.go
+
