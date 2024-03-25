@@ -1,10 +1,9 @@
 --extra-index-url https://download.pytorch.org/whl/cu116
-spacy
-python -m spacy download en_core_web_sm
 numpy
 pandas
 matplotlib
 seaborn
+spacy
 langdetect
 polyglot
 tqdm
@@ -21,4 +20,7 @@ torch==1.13.1+cu116
 torchaudio==0.13.1+cu116
 torchvision==0.14.1+cu116
 transformers==4.35.2
+sentencepiece
+fairseq
+fastBPE
 

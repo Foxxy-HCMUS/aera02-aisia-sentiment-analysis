@@ -1,3 +1,8 @@
+# AERA02-AISIA
+
+## Description
+
+## Installation
 1. Install the 'dev' dependencies for the 'aera02-aisia' package: `pip install .[dev]` or `pre-commit install` these two packages: `pre-commit` and `ruff`.
 2. In the `aera02-aisia` root directory (where `.pre-commit-config.yaml` is), run the pre-commit installation: `pre-commit install`
     1. This will update your `./.git/hooks/pre-commit` which will automatically run commands on any staged files when you run git commit in this project
@@ -9,4 +14,14 @@
     pre-commit run --files <FILEPATHS>
     ruff <FILEPATHS>
 ```
+4. Install package for `spacy` library
+```
+    python -m spacy download en_core_web_sm
+```
+
+Or just simply run the following command:
+```
+    pip install -r requirements.txt && python -m spacy download en_core_web_sm
+```
+
 

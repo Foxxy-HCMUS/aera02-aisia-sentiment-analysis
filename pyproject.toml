@@ -3,7 +3,7 @@ name = "sentiment-analysis"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Foxxy-HCMUS", email = "hoanganh6758@gmail.com"},
+    {name = "", email = ""},
 ]
 url = "https://download.pytorch.org/whl/cu116"
 dependencies = [
@@ -15,6 +15,7 @@ dependencies = [
     "matplotlib",
     "seaborn",
     "spacy",
+    "langdetect",
     "googletrans==3.1.0a0",
     "ipywidgets",
     "pandarallel",
@@ -25,6 +26,9 @@ dependencies = [
     "torchaudio==0.13.1+cu116",
     "torchvision==0.14.1+cu116",
     "transformers==4.35.2",
+    "sentencepiece",
+    "fairseq",
+    "fastBPE"
 ]
 requires-python = ">=3.9"
 readme = "README.md"

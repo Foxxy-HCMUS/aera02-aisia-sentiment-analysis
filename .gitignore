@@ -3,3 +3,9 @@ data/*
 cache/*
 
 model/*
+
+notebook/cache/*
+
+src/phobert/*
+
+src/vncorenlp/*
